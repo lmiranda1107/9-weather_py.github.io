@@ -1,57 +1,93 @@
 body {
-  background-color: lightgray;
-}
+  background-color: #f7f9fb;
+ }
+
+/* Global */
+.container {
+  background-color: white;
+  margin.auto;}
+ 
+/*Display header horizontally - by default <ul> has padding, set padding and margin to 0*/
+header ul{
+  margin:0;
+  padding:0}
+
+/* Header */
+header{
+  background:#31708E;
+  padding-top: 30px;
+  min-height:50xp;
+  border-bottom:#FFCB9A 3xp solid}
+
+/*Nav bar upper right hand - Plots, Comparison, Data*/
+header a{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  font: verdana}
+
+header a:hover{
+    color: #8FC1E3
+  }
+
+/*Comparison and Data Buttons*/
+.nav-navbar-nav-right{
+  float:right;
+  margin-top: 10px;
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  font: verdana}
+
+/* Plot */
+.nav-navbar-nav{
+  color:white;
+  font-size: 16px;
+  font: verdana;
+  float:right;
+  margin-top: 10px;}
+
+/* Plot Drop Down*/
+.dropdown-menu{
+  color:white;
+  font-size: 16px;
+  font: verdana}
+
+/*Nav bar upper left hand - Latitude*/
+.navbar-brand {
+  background-color: #8FC1E3;
+  font-family: times new roman;
+  font-weight: bold;
+  padding: 1.09%;
+  color:white;}
+
+header #lat{
+  font-size: 33px}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;}   /* single padding property(top,right,bottom,left) is 0 0 0 0 - padding needs to be in right and left*/
+
+h2 {
+  color:#5085A5;
+  font-family: times new roman;
+  font-weight: bold;
+  font-size:30px}
 
 h1 {
-   color: rgb(12, 173, 167);
-   background-color: white;
-   font-family: times new roman;
-   font-weight: bold;
-}
+  color:#5085A5;
+  font-family: times new roman;
+  font-weight: bold;
+  font-size:24px}
 
-h3 {
-   color: rgb(12, 173, 167);
-   background-color: white;
-   font-family: times new roman;
-   font-weight: bold;
-}
-
-img {
+  img {
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 10px;
-  padding-left: 20px;
-}
+  padding-left: 20px;}
 
 p {
- font-family: sans-serif;
- font-size: 12
-}
-
-.container {
-background-color: white;
-}
-
-.navbar {
-       padding-left: 50px;
-}
-
-.navbar-brand {
-             background-color: rgb(12, 173, 167);
-             font-family: times new roman;
-             font-weight: bold;
-             color: white;
-}
-
-  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-  @media (max-width: 480px) {
-.navbar {
-  background-color: rgb(12, 173, 167);
-}
-
-.navbar-brand {
-               background-color: white;
-               font-family: times new roman;
-               font-weight: bold;
-               color: rgb(12, 173, 167);
-}
+  font: verdana;
+  font-size: 12px}
+  

@@ -19,16 +19,19 @@
     <header>
         <div class="container-fluid"> <!-- container-fluid expands to fill the available width-->
     
-    <!-- DESIGN HOME PAGE -->
+    <!-- DESIGN LANDING PAGE -->
     <!-- TOP OF WEBSITE - Create navigation bar-->
         <!-- Latitude: Upper left hand corner button -->    
             <nav>
                 <ul>  
-                    <li class="navbar-brand"><a href="index.html">Latitude</a></li>
+                    <li class="navbar-brand"><a id = "lat" href="index.html">Latitude</a></li>
                 </ul>
-                
+            
+            </nav>
+
+            <nav>
                 <!-- Bootstrap - for better mobile display -->
-                <ul class="nav navbar-nav">
+                <ul class="nav-navbar-nav">
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
                 </ul>
                 
@@ -41,9 +44,9 @@
                 </ul>  
                 
                 <!-- Comparison and Data Buttons (Upper Right Hand Side) -->
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"> Comparison</a></li>
-                    <li><a href="#"> Data</a></li>
+                <ul class="nav-navbar-nav-right">
+                    <li><a href="comparison.html"> Comparison</a></li>
+                    <li><a href="data.html"> Data</a></li>
                 </ul> 
             </nav>
         </div>
@@ -51,9 +54,9 @@
 
     <!-- CENTER OF THE PAGE -->
         <!-- Summary: Latitude vs. X (HALF LEFT)--->
-        <section id="homelat">
+        <section>
             <div class = "container">
-                <h1> Summary: Latitude vs. X</h1>
+                <h1 id="homelat"> Summary: Latitude vs. X</h1>
                 <img src="images/latitude_vs_temp.png" alt="Latitude vs. Max Temperature" width="300" height="200">    
                 <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
                 <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind-speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed</p>   
@@ -61,9 +64,9 @@
         </section>
     
         <!-- Visualizations (HALF RIGHT)-->
-        <section id="homeviz">
+        <section>
             <div class = "container">
-                <h1> Visualizations</h1>
+                <h2 id="homeviz"> Visualizations</h2> <!-- Links to each visualizations page. NEEDED! -->
                 <img src="images/latitude_vs_temp.png" alt="Latitude vs. Max Temperature" width="200" height="200">    
                 <img src="images/latitude_vs_cloudiness.png" alt="Latitude vs. Cloudiness" width="200" height="200">    
                 <img src="images/latitude_vs_humidity.png" alt="Latitude vs. Humidity" width="200" height="200">    
