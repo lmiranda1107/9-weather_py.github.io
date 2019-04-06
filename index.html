@@ -6,32 +6,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Bootcamp Latitude Analysis Dashboard</title>
+    <title>Latitude Analysis Dashboard | Welcome</title>
 
     <!-- Bootstrap Stylesheets CSS, browser reset, size responsiveness (standard) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/reset" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 
 </head>
 
 <body>
+    <header>
+        <div class="container-fluid"> <!-- container-fluid expands to fill the available width-->
+    
+    <!-- TOP OF WEBSITE-->
     <!-- Create navigation bar-->
-    <nav class="navbar navbar-default">
-    <div class="container-fluid"> <!-- container-fluid expands to fill the available width-->
-            
-     <!-- Bootstrap - for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-          <a class="navbar-brand" href="index.html">Latitude</a>
+    <!--- Latitude: Upper left hand corner button -->    
+            <nav>
+                <ul>  
+                    <li class="navbar-brand"><a href="index.html">Latitude</a></li>
+                </ul>
+                
+                <!-- Bootstrap - for better mobile display -->
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                </ul>
+                
+                <!-- Plots Drop Down (Upper Right Hand Side)-->
+                <ul class="dropdown-menu">
+                    <li><a href="maxtemp.html">Max Temperature</a></li>
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="windspeed.html">Wind Speed</a></li>
+                </ul>  
+                
+                <!-- Comparison and Data Buttons (Upper Right Hand Side) -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> Comparison</a></li>
+                    <li><a href="#"> Data</a></li>
+                </ul> 
+            </nav>
         </div>
-      
+    </header>
 
-
-</body>
-</html>
+    
+           
+                        
+   
