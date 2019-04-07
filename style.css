@@ -1,6 +1,6 @@
 .logo {
     font-weight: bold;
-    background-color: teal;
+    background-color: darkcyan;
     font-size: 40px;}
 
 .first image {
@@ -13,3 +13,13 @@
 .text {
     float: right;
 }
+
+   
+}
+/* Footer */
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:darkcyan;
+    text-align: center}
